@@ -3,6 +3,11 @@ const API = "https://wger.de/api/v2";
 export const getMusclesNames = async () => {
   const response = await fetch(`${API}/muscle`);
   const data = await response.json();
+
+  if (!response.ok) {
+    throw new Error("Failed to get data");
+  }
+
   const names = [];
 
   for (const key in data.results) {
@@ -19,6 +24,11 @@ export const getMusclesNames = async () => {
 export const getExercisesInfo = async (query) => {
   const response = await fetch(`${API}/exercise/?muscles=${query}`);
   const data = await response.json();
+
+  if (!response.ok) {
+    throw new Error("Failed to get data");
+  }
+
   const exercises = [];
 
   for (const key in data.results) {

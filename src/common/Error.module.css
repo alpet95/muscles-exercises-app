@@ -1,0 +1,10 @@
+container {
+  /* width: 373px;
+  height: 220px; */
+  margin-top: 15px;
+}
+
+.error {
+  text-align: center;
+  color: #ffffff;
+}

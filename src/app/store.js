@@ -4,6 +4,8 @@ const initialState = {
   names: [],
   exercises: [],
   selected: "",
+  status: "pending",
+  error: null,
 };
 
 const musclesSlice = createSlice({
@@ -18,6 +20,12 @@ const musclesSlice = createSlice({
     },
     setQuery(state, action) {
       state.selected = action.payload;
+    },
+    setStatus(state, action) {
+      state.status = action.payload;
+    },
+    setError(state, action) {
+      state.error = action.payload;
     },
   },
 });
