@@ -1,0 +1,35 @@
+.container {
+  padding: 10px 15px;
+  width: 32%;
+  height: auto;
+  margin: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  background-color: #f5f6fa;
+}
+
+.name {
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.description {
+  font-style: italic;
+}
+
+.description ul,
+.description ol {
+  list-style: none;
+}
+
+.description ul,
+.description li,
+.description ol,
+.description p {
+  display: inline;
+}
+
+.misc {
+  margin-top: 15px;
+}
