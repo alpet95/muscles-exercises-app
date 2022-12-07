@@ -1,10 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import styles from "./ExerciseItem.module.css";
 
 import parse from "html-react-parser";
 import DOMPurify from "dompurify";
-
-import styles from "./ExerciseItem.module.css";
 
 const ExerciseItem = (props) => {
   const { exercise } = props;

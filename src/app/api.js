@@ -9,7 +9,6 @@ export const getMusclesNames = async () => {
   }
 
   const names = [];
-
   for (const key in data.results) {
     const configObj = {
       id: data.results[key].id,
@@ -30,7 +29,6 @@ export const getExercisesInfo = async (query) => {
   }
 
   const exercises = [];
-
   for (const key in data.results) {
     const configObj = {
       id: data.results[key].id,

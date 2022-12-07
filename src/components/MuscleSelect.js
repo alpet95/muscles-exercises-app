@@ -1,7 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { musclesActions } from "../app/store";
-
 import styles from "./MuscleSelect.module.css";
 
 const MuscleSelect = (props) => {

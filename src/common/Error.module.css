@@ -1,10 +1,9 @@
-container {
-  /* width: 373px;
-  height: 220px; */
+.container {
   margin-top: 15px;
 }
 
 .error {
   text-align: center;
+  font-style: italic;
   color: #ffffff;
 }

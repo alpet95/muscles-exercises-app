@@ -3,7 +3,7 @@
 }
 
 .note {
-  color: #ffffff;
-  font-style: it;
   text-align: center;
+  font-style: italic;
+  color: #ffffff;
 }
